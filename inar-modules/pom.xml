@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.jxst</groupId>
+        <artifactId>inar</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>inar-modules</artifactId>
+    <description>所有的功能模块放在这里， 包括 commmon modules, service modules</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>auth-server</module>
+    </modules>
+</project>
